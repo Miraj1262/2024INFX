@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INFX Personality Filter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>INFX</h1>
+      <p>Show your personality with our dynamic filters! Upload your photo and pick your vibe.</p>
+    </header>
+
+    <!-- Image Upload Section -->
+    <section class="upload-section">
+      <h2>Upload Your Image</h2>
+      <input type="file" id="imageUpload" accept="image/*">
+      <canvas id="canvas" width="400" height="400"></canvas>
+    </section>
+
+    <!-- Personality Traits Carousel -->
+    <section class="traits-section">
+      <h2>Choose Your Personality</h2>
+      <div class="carousel">
+        <div class="trait" data-filter="X-Bold">🔥 X-Bold</div>
+        <div class="trait" data-filter="X-Young">✨ X-Young</div>
+        <div class="trait" data-filter="X-Rebel">⚡ X-Rebel</div>
+        <div class="trait" data-filter="X-Dreamer">🌌 X-Dreamer</div>
+        <div class="trait" data-filter="X-Creator">💡 X-Creator</div>
+        <div class="trait" data-filter="X-Adventurer">🏔️ X-Adventurer</div>
+        <div class="trait" data-filter="X-Loyal">🤝 X-Loyal</div>
+        <div class="trait" data-filter="X-Charismatic">🌟 X-Charismatic</div>
+        <div class="trait" data-filter="X-Passionate">🔥 X-Passionate</div>
+        <div class="trait" data-filter="X-Edgy">🖤 X-Edgy</div>
+      </div>
+    </section>
+
+    <!-- Download Button -->
+    <button id="downloadButton">Download Your Image</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
